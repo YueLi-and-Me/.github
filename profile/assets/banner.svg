@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="月璃 YueLi and Me">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1020"/>
+      <stop offset="0.55" stop-color="#141c30"/>
+      <stop offset="1" stop-color="#1b2440"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dce6f5" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#aebfdd" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#aebfdd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#cfe0ff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="crescent">
+      <rect width="1200" height="280" fill="black"/>
+      <circle cx="980" cy="132" r="62" fill="white"/>
+      <circle cx="1008" cy="114" r="56" fill="black"/>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#sky)"/>
+
+  <!-- 星点：错开相位缓慢明灭，周期都在 5 秒以上，避免闪烁感 -->
+  <g fill="#e6edfa">
+    <circle cx="118" cy="52" r="1.6"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="6.5s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="243" cy="216" r="1.2"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="7.5s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="336" cy="44" r="1.1"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="8.5s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="452" cy="238" r="1.5"><animate attributeName="opacity" values="0.7;0.18;0.7" dur="6s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="566" cy="36" r="1.3"><animate attributeName="opacity" values="0.25;0.8;0.25" dur="9s" begin="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="676" cy="196" r="1.1"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="7s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="742" cy="64" r="1.7"><animate attributeName="opacity" values="0.18;0.9;0.18" dur="5.5s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="848" cy="228" r="1.2"><animate attributeName="opacity" values="0.55;0.14;0.55" dur="8s" begin="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1088" cy="60" r="1.4"><animate attributeName="opacity" values="0.22;0.75;0.22" dur="6.8s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1146" cy="204" r="1.1"><animate attributeName="opacity" values="0.65;0.16;0.65" dur="7.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="62" cy="164" r="1.2"><animate attributeName="opacity" values="0.3;0.72;0.3" dur="9.5s" begin="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="906" cy="88" r="1.0"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="6.2s" begin="2.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- 月亮的呼吸：14 秒一轮，慢到不会把视线拽过去 -->
+  <circle cx="990" cy="124" r="150" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <rect width="1200" height="280" fill="#eef3fb" mask="url(#crescent)">
+    <animate attributeName="opacity" values="0.88;1;0.88" dur="14s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="88" y="146" font-family="'Noto Sans SC','Source Han Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="76" font-weight="600" fill="#f2f6fd" letter-spacing="8">月璃</text>
+  <text x="92" y="190" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="500" fill="#93a6c8" letter-spacing="7">YUELI AND ME</text>
+  <rect x="90" y="212" height="1.5" fill="#6d82ab">
+    <animate attributeName="width" values="0;236" dur="1.6s" begin="0.3s" fill="freeze"/>
+  </rect>
+
+  <!-- 极慢的横向微光扫过，18 秒一轮 -->
+  <rect x="-420" y="0" width="420" height="280" fill="url(#sweep)">
+    <animate attributeName="x" values="-420;1200" dur="18s" repeatCount="indefinite"/>
+  </rect>
+</svg>
