@@ -20,7 +20,7 @@
 ### 贡献者 | Contributors
 
 <a href="https://github.com/YueLi-and-Me/YueLiBot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=YueLi-and-Me/YueLiBot" alt="贡献者">
+  <img src="https://contrib.rocks/image?repo=YueLi-and-Me/YueLiBot&max=100" alt="贡献者">
 </a>
 
 <img src="assets/divider-thin.svg" width="100%" alt="">
