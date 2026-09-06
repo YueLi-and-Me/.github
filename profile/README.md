@@ -6,7 +6,7 @@
 
 ## 核心项目 | Core Project
 
-### [YueLiBot](https://github.com/YueLi-and-Me/YueLiBot)
+### 🌙 [YueLiBot](https://github.com/YueLi-and-Me/YueLiBot)
 
 <br>
 
