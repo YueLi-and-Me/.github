@@ -4,16 +4,9 @@
 
 <br>
 
-**一个由 LLM 驱动的数字生命——有记忆，有性格，有自己的日程和作息。**
+## 核心项目 | Core Project
 
-不追求完美，不追求高效，追求的是亲切和真实：<br>
-关掉程序、隔几天再打开，她仍然是同一个她。
-
-<br>
-
-### [→ YueLiBot](https://github.com/YueLi-and-Me/YueLiBot)
-
-主体、桌宠外壳与 QQ 适配器都在这个仓库里
+### [YueLiBot](https://github.com/YueLi-and-Me/YueLiBot)
 
 <br>
 
