@@ -8,6 +8,8 @@
 
 ### 🌙 [YueLiBot](https://github.com/YueLi-and-Me/YueLiBot)
 
+用户手册与开发手册：[<b>文档中心</b>](https://docs.yuelibot.org/)
+
 <img src="assets/divider-thick.svg" width="100%" alt="">
 
 ### 技术栈 | Tech Stack
@@ -26,7 +28,7 @@
 <img src="assets/divider-thin.svg" width="100%" alt="">
 
 [用户协议](https://github.com/YueLi-and-Me/YueLiBot/blob/main/AGREEMENT.md) ·
-[文档](https://github.com/YueLi-and-Me/YueLiBot/tree/main/docs) ·
+[文档中心](https://docs.yuelibot.org/) ·
 [AGPL-3.0](https://github.com/YueLi-and-Me/YueLiBot/blob/main/LICENSE)
 
 </div>
